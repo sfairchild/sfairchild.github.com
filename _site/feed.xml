@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sean Fairchild</title>
+    <description>This is my site to storing references to information that is useful to me.  Feel free to use any resources I have listed.
+</description>
+    <link>localhost:4000/</link>
+    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 04 Dec 2015 23:34:11 -0500</pubDate>
+    <lastBuildDate>Fri, 04 Dec 2015 23:34:11 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Test Post</title>
+        <description>
+</description>
+        <pubDate>Fri, 04 Dec 2015 00:00:00 -0500</pubDate>
+        <link>localhost:4000/2015/12/04/test-post.html</link>
+        <guid isPermaLink="true">localhost:4000/2015/12/04/test-post.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+/Users/sfairchild/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20151204-3640-1ykn3y3.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 posix_spawn_ext.bundle ./.gem.20151204-3640-vcjxs2

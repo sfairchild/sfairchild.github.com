@@ -1,0 +1,1 @@
+/Users/sfairchild/temp/sfairchild@github.com/vendor/ruby/2.2.0/gems/rugged-0.24.0b8/vendor/libgit2/build/CMakeFiles/git2.dir
