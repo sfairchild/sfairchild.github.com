@@ -30,7 +30,7 @@ then
     fi
   done
   unset __hook
-  if (( ${rvm_use_flag:=1} >= 1 )) # display automatically
+  if (( ${rvm_use_flag:=1} >= 2 )) # display only when forced
   then
     if [[ $- == *i* ]] # check for interactive shells
     then printf "%b" "Using: $(tput setaf 2 2>/dev/null)$GEM_HOME$(tput sgr0 2>/dev/null)\n" # show the user the ruby and gemset they are using in green
@@ -39,7 +39,7 @@ then
   fi
 else
   # If the environment file has not yet been created, use the RVM CLI to select.
-  rvm --create use  "$environment_id" || {
+  rvm --create  "$environment_id" || {
     echo "Failed to create RVM environment '${environment_id}'."
     return 1
   }
