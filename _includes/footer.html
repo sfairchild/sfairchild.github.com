@@ -1,23 +1,25 @@
-<footer class="site-footer">
+<footer class="page-footer blue-grey darken-2">
 
-  <div class="wrapper">
+  <div class="container">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <div class="row">
+      <h2 class="footer-heading">Follow me if you dare</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <!-- <ul class="contact-list"> -->
+          <!-- <li> -->
+          <!-- {% if site.author %} -->
+            <!-- {{ site.author | escape }} -->
+          <!-- {% else %} -->
+            <!-- {{ site.title | escape }} -->
+            <!-- {% endif %} -->
+          <!-- </li> -->
+          <!-- {% if site.email %} -->
+            <!-- <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
+            <!-- {% endif %} -->
+          <!-- </ul> -->
+        </div>
       </div>
 
       <div class="footer-col footer-col-2">
@@ -42,5 +44,10 @@
     </div>
 
   </div>
-
+  <div class="footer-copyright">
+    <div class="container center-align">
+      © 2017 Copyright Text
+    </div>
+  </div>
 </footer>
+<script src={{ "/js/init.js" | relative_url }}></script>
