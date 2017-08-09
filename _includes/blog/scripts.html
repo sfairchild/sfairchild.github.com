@@ -81,9 +81,6 @@ $('.unit-article').on('click', '.meta .list-tag a', function(event) {
 $('.unit-article').on('click', '.meta .list-category', function(event) {
     sendGaEvent('Post', 'Click Category', event.currentTarget);
 });
-$('.unit-foot').delegate('.addthis_toolbox .btn-share-post', 'click', function(event) {
-    sendGaEvent('Post', 'Share Post', event.currentTarget);
-});
 $('.search-wrapper').on('click', '.results a', function(event) {
     sendGaEvent('Search', 'Click Search Result', event.currentTarget);
 });

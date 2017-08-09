@@ -52,9 +52,6 @@ layout: blog
                 <div class="unit-inner unit-foot-inner">
                     <div class="post-buttons">
                         <a class="internal gotop" href="#page" title="{{ site.data.i18n[site.lang].back_to_top }}">{{ site.data.i18n[site.lang].back_to_top }}</a>
-                        {% if site.addthis_public_id %}
-                            {% include common/addthis.html %}
-                        {% endif %}
                     </div>
                     <nav class="pagination">
                         {% if page.previous %}

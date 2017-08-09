@@ -710,34 +710,6 @@
 
         .post-buttons {
             margin-bottom: 18px;
-
-            .addthis_toolbox {
-                float: right;
-
-                a {
-                    opacity: .3;
-                    border: none;
-
-                    filter: alpha(opacity=30);
-                    &:hover {
-                        -webkit-transition: all .3s ease-out;
-                           -moz-transition: all .3s ease-out;
-                             -o-transition: all .3s ease-out;
-                                transition: all .3s ease-out;
-
-                        opacity: 1.0;
-                        background: transparent;
-
-                        filter: alpha(opacity=100);
-                    }
-                }
-
-                .label {
-                    float: left;
-
-                    margin-right: 6px;
-                }
-            }
         }
     }
 }
