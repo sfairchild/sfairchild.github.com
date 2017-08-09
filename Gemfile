@@ -13,4 +13,5 @@ gemspec
 #   gem 'jekyll-redirect-from'
 #   gem 'jekyll-seo-tag'
 #   gem 'jekyll-sitemap'
+#   gem 'jekyll-watch'
 # end
