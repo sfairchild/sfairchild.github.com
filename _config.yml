@@ -30,12 +30,12 @@ author:
   name:
   job_title:
   location:
-  email:
+  email: seanf215@gmail.com
   social_links:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: https://github.com/sfairchild
     - name: instagram
       url:
     - name: linkedin
@@ -43,17 +43,17 @@ author:
     - name: stackoverflow
       url:
     - name: twitter
-      url: 
+      url: https://twitter.com/LogicSean
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texutre</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section1: <h1>Sean Fairchild</h1>
+  section2: <h2>A Ruby dev with many interests</h2>
+  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/sfairchild" title="Visit Me On Github"></a></div>
 blog:
   cc_license: # A link to CC License of your choice, e.g. http://creativecommons.org/licenses/by-sa/4.0/.
   cc_license_image: # An image of your CC License, e.g. /assets/images/theme/cc-by-sa.png
-  footer_content: A gem-based responsive simple texture styled Jekyll theme.
+  footer_content: This information is given freely for informational/entertainment use with no warranty given, use at your own risk.
 
 disqus:
   shortname:
