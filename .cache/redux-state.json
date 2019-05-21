@@ -1,0 +1,2014 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/sfair01/Sites/sfairchild/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "518787c7c6a5adf00571b32ea7165a95",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cf209dbf1c37548ebd8ea5e911ec1751",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f2a857a100cdf44fa9d9e4974aebf1aa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "72b779de698bdead21694037f4318cc0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0da27f017e6deca657403ac1ac821b35",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "eb6879a85e244c7515ccfd7896d0e3ac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9b730795bf28a1fc35a11b447570b37f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d40e776e20f78786058109bd9afc85b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "5757ee02-cd2a-5a6a-b998-0d3e48e72749": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-source-filesystem",
+      "id": "5757ee02-cd2a-5a6a-b998-0d3e48e72749",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/sfair01/Sites/sfairchild/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9a0e7524e4676ebd9dcea7e318a9d8b9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d568cab9f970b56d124aed210924bbbd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.30",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.30",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ef158c4dff06405d1b7b11430ad608f7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-manifest",
+      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.24",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "acceed2ed26e5d8d9f58167444507bd8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "be0f7b18af7701136ef0cbcdd0cb47c8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6b4be8431f2d5f9404851070bc2b6ae9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80ca5129-0c17-50e7-b23b-d35ed394f7b6": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-source-filesystem",
+      "id": "80ca5129-0c17-50e7-b23b-d35ed394f7b6",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/sfair01/Sites/sfairchild/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ecc01337fd69ab55cf8d00951de24a12",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/sfair01/Sites/sfairchild",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "ef72ec691ec321eae3cc3dcae7828d63",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild",
+      "packageJson": {
+        "name": "my-dev-tips",
+        "description": "My personal findings and tips",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Sean Fairchild <seanf215@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.2.5"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.34"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.10"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.30"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.4"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.4"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "eslint",
+            "version": "^5.15.3"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.12.4"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.28"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.8"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "743b8da41a7e1853a35b8ff019438a74",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84e0d556-84fb-5d62-82cb-84354a289bb0": {
+      "resolve": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-page-creator",
+      "id": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/sfair01/Sites/sfairchild/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sfair01/Sites/sfairchild/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8d76d3dbb5feb95346f8aaff6e9bf979",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Dev Tips",
+        "description": "Short developer tips that I find handy",
+        "author": "@logicSean"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-22T17:04:05.811Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "aa093b6f7d5da7eedea70a4bccb21c3d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4c70ed68-f976-5874-8f99-cabb2f465a8a": {
+      "id": "4c70ed68-f976-5874-8f99-cabb2f465a8a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cb9fd607f7ee5d9b5c351283da289325",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-03-22T15:57:09.407Z",
+      "accessTime": "2019-03-22T17:04:10.399Z",
+      "changeTime": "2019-03-22T15:57:09.407Z",
+      "birthTime": "2019-03-22T15:57:09.405Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328493808,
+      "blocks": 0,
+      "atimeMs": 1553274250399.0137,
+      "mtimeMs": 1553270229407.1433,
+      "ctimeMs": 1553270229407.1433,
+      "birthtimeMs": 1553270229405.0693,
+      "atime": "2019-03-22T17:04:10.399Z",
+      "mtime": "2019-03-22T15:57:09.407Z",
+      "ctime": "2019-03-22T15:57:09.407Z",
+      "birthtime": "2019-03-22T15:57:09.405Z"
+    },
+    "1c915e84-fa8c-56f9-9fb2-d29b4bb3fdfe": {
+      "id": "1c915e84-fa8c-56f9-9fb2-d29b4bb3fdfe",
+      "children": [
+        "48409f87-8d52-514e-95ce-20fc52bb0a37"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-03-22T15:57:09.408Z",
+      "accessTime": "2019-03-22T16:52:25.036Z",
+      "changeTime": "2019-03-22T15:57:09.408Z",
+      "birthTime": "2019-03-22T15:57:09.407Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328493810,
+      "blocks": 48,
+      "atimeMs": 1553273545035.8904,
+      "mtimeMs": 1553270229407.7397,
+      "ctimeMs": 1553270229407.7397,
+      "birthtimeMs": 1553270229407.1345,
+      "atime": "2019-03-22T16:52:25.036Z",
+      "mtime": "2019-03-22T15:57:09.408Z",
+      "ctime": "2019-03-22T15:57:09.408Z",
+      "birthtime": "2019-03-22T15:57:09.407Z"
+    },
+    "48409f87-8d52-514e-95ce-20fc52bb0a37": {
+      "id": "48409f87-8d52-514e-95ce-20fc52bb0a37",
+      "children": [],
+      "parent": "1c915e84-fa8c-56f9-9fb2-d29b4bb3fdfe",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f36496ab-07ee-516d-81fa-65a68eed4fc7": {
+      "id": "f36496ab-07ee-516d-81fa-65a68eed4fc7",
+      "children": [
+        "2acdbdf6-859b-5b3b-9588-9fe7eb49525a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-03-22T15:57:09.407Z",
+      "accessTime": "2019-03-22T16:52:25.039Z",
+      "changeTime": "2019-03-22T15:57:09.407Z",
+      "birthTime": "2019-03-22T15:57:09.405Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328493809,
+      "blocks": 328,
+      "atimeMs": 1553273545039.0095,
+      "mtimeMs": 1553270229406.9417,
+      "ctimeMs": 1553270229406.9417,
+      "birthtimeMs": 1553270229405.1616,
+      "atime": "2019-03-22T16:52:25.039Z",
+      "mtime": "2019-03-22T15:57:09.407Z",
+      "ctime": "2019-03-22T15:57:09.407Z",
+      "birthtime": "2019-03-22T15:57:09.405Z"
+    },
+    "2acdbdf6-859b-5b3b-9588-9fe7eb49525a": {
+      "id": "2acdbdf6-859b-5b3b-9588-9fe7eb49525a",
+      "children": [],
+      "parent": "f36496ab-07ee-516d-81fa-65a68eed4fc7",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b95845b4-0b57-5e00-8f76-ce47349a9f85": {
+      "id": "b95845b4-0b57-5e00-8f76-ce47349a9f85",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "88f97ccfdf818965ec807fea9639e0f3",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2019-03-22T16:53:13.346Z",
+      "accessTime": "2019-03-22T17:04:10.410Z",
+      "changeTime": "2019-03-22T16:53:13.346Z",
+      "birthTime": "2019-03-22T15:57:09.408Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328493811,
+      "blocks": 0,
+      "atimeMs": 1553274250410.1155,
+      "mtimeMs": 1553273593345.5947,
+      "ctimeMs": 1553273593345.5947,
+      "birthtimeMs": 1553270229407.907,
+      "atime": "2019-03-22T17:04:10.410Z",
+      "mtime": "2019-03-22T16:53:13.346Z",
+      "ctime": "2019-03-22T16:53:13.346Z",
+      "birthtime": "2019-03-22T15:57:09.408Z"
+    },
+    "119e80de-3566-56ac-958a-f44c7e47603e": {
+      "id": "119e80de-3566-56ac-958a-f44c7e47603e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a80c960275ea7e8d96858fbae4715c21",
+        "type": "Directory",
+        "description": "Directory \"src/pages/firstpost\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/pages/firstpost",
+      "relativePath": "firstpost",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-03-22T16:32:30.834Z",
+      "accessTime": "2019-03-22T17:04:10.411Z",
+      "changeTime": "2019-03-22T16:32:30.834Z",
+      "birthTime": "2019-03-22T16:31:36.909Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src/pages",
+      "base": "firstpost",
+      "ext": "",
+      "name": "firstpost",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328579117,
+      "blocks": 0,
+      "atimeMs": 1553274250411.1912,
+      "mtimeMs": 1553272350834.4985,
+      "ctimeMs": 1553272350834.4985,
+      "birthtimeMs": 1553272296908.818,
+      "atime": "2019-03-22T17:04:10.411Z",
+      "mtime": "2019-03-22T16:32:30.834Z",
+      "ctime": "2019-03-22T16:32:30.834Z",
+      "birthtime": "2019-03-22T16:31:36.909Z"
+    },
+    "fa3c90ed-8c21-55c9-8f07-d856038cd82c": {
+      "id": "fa3c90ed-8c21-55c9-8f07-d856038cd82c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "01f4bc5e79403cfd22f01c83b25e79bf",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-03-22T15:57:09.408Z",
+      "accessTime": "2019-03-22T16:52:25.050Z",
+      "changeTime": "2019-03-22T15:57:09.408Z",
+      "birthTime": "2019-03-22T15:57:09.408Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328493812,
+      "blocks": 8,
+      "atimeMs": 1553273545049.9185,
+      "mtimeMs": 1553270229408.4175,
+      "ctimeMs": 1553270229408.4175,
+      "birthtimeMs": 1553270229407.9963,
+      "atime": "2019-03-22T16:52:25.050Z",
+      "mtime": "2019-03-22T15:57:09.408Z",
+      "ctime": "2019-03-22T15:57:09.408Z",
+      "birthtime": "2019-03-22T15:57:09.408Z"
+    },
+    "3830b91c-6ead-51be-823f-a1201a77dfa3": {
+      "id": "3830b91c-6ead-51be-823f-a1201a77dfa3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e984d83dbb863e9af1168cb07ac445d0",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1269,
+      "prettySize": "1.27 kB",
+      "modifiedTime": "2019-03-22T17:12:30.612Z",
+      "accessTime": "2019-03-22T17:12:30.681Z",
+      "changeTime": "2019-03-22T17:12:30.612Z",
+      "birthTime": "2019-03-22T17:12:30.612Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328592247,
+      "blocks": 8,
+      "atimeMs": 1553274750680.6604,
+      "mtimeMs": 1553274750612.2646,
+      "ctimeMs": 1553274750612.4675,
+      "birthtimeMs": 1553274750612.1648,
+      "atime": "2019-03-22T17:12:30.681Z",
+      "mtime": "2019-03-22T17:12:30.612Z",
+      "ctime": "2019-03-22T17:12:30.612Z",
+      "birthtime": "2019-03-22T17:12:30.612Z"
+    },
+    "c89b1784-c760-5eaa-ae0c-da7f4f6a179e": {
+      "id": "c89b1784-c760-5eaa-ae0c-da7f4f6a179e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b745facbaabe4cf8b66adad963a79456",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/page-2.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/pages/page-2.js",
+      "relativePath": "page-2.js",
+      "extension": "js",
+      "size": 358,
+      "prettySize": "358 B",
+      "modifiedTime": "2019-03-22T15:57:09.410Z",
+      "accessTime": "2019-03-22T16:52:25.050Z",
+      "changeTime": "2019-03-22T15:57:09.410Z",
+      "birthTime": "2019-03-22T15:57:09.409Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src/pages",
+      "base": "page-2.js",
+      "ext": ".js",
+      "name": "page-2",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328493814,
+      "blocks": 8,
+      "atimeMs": 1553273545050.0842,
+      "mtimeMs": 1553270229409.7625,
+      "ctimeMs": 1553270229409.7625,
+      "birthtimeMs": 1553270229409.304,
+      "atime": "2019-03-22T16:52:25.050Z",
+      "mtime": "2019-03-22T15:57:09.410Z",
+      "ctime": "2019-03-22T15:57:09.410Z",
+      "birthtime": "2019-03-22T15:57:09.409Z"
+    },
+    "9e19ceeb-85a3-5141-8a29-d65473f9a401": {
+      "id": "9e19ceeb-85a3-5141-8a29-d65473f9a401",
+      "children": [
+        "27d07090-0f81-5031-adcc-c612a99ff760"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "609ec772bb506fcf2510c4c7fd5eefb5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/firstpost/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sfair01/Sites/sfairchild/src/pages/firstpost/index.md",
+      "relativePath": "firstpost/index.md",
+      "extension": "md",
+      "size": 1434,
+      "prettySize": "1.43 kB",
+      "modifiedTime": "2019-03-22T16:32:30.834Z",
+      "accessTime": "2019-03-22T16:52:25.056Z",
+      "changeTime": "2019-03-22T16:32:30.834Z",
+      "birthTime": "2019-03-22T16:32:30.834Z",
+      "root": "/",
+      "dir": "/Users/sfair01/Sites/sfairchild/src/pages/firstpost",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "firstpost",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1748234972,
+      "gid": 1882308299,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4328579744,
+      "blocks": 8,
+      "atimeMs": 1553273545055.6428,
+      "mtimeMs": 1553272350834.0999,
+      "ctimeMs": 1553272350834.3086,
+      "birthtimeMs": 1553272350833.9924,
+      "atime": "2019-03-22T16:52:25.056Z",
+      "mtime": "2019-03-22T16:32:30.834Z",
+      "ctime": "2019-03-22T16:32:30.834Z",
+      "birthtime": "2019-03-22T16:32:30.834Z"
+    },
+    "27d07090-0f81-5031-adcc-c612a99ff760": {
+      "id": "27d07090-0f81-5031-adcc-c612a99ff760",
+      "children": [],
+      "parent": "9e19ceeb-85a3-5141-8a29-d65473f9a401",
+      "internal": {
+        "content": "Don't build a website with last decade's tech. The future of the web is mobile,\n JavaScript and APIs—the\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum has been the industry's standard dummy text ever since the 1500s,\nwhen an unknown printer took a galley of type and scrambled it to make a type s\npecimen book. It has survived not only five centuries, but also the leap into\nelectronic typesetting, remaining essentially unchanged. It was popularised in\nthe 1960s with the release of Letraset sheets containing Lorem Ipsum passages,\nand more recently with desktop publishing software like Aldus PageMaker including\nversions of Lorem Ipsum.\n\n## Why do we use it?\n\nIt is a long established fact that a reader will be distracted by the readable\ncontent of a page when looking at its layout. The point of using Lorem Ipsum\nis that it has a more-or-less normal distribution of letters, as opposed to using\n'Content here, content here', making it look like readable English.\nMany desktop publishing packages and web page editors now use Lorem\nIpsum as their default model text and a search for 'lorem ipsum' will\nuncover many web sites still in their infancy. Various versions have evolved\nover the years, sometimes by accident, sometimes on purpose\n(injected humor and the like).\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "0a87cf4b18b08715e7d5e1b521614330",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My first Blog post",
+        "description": "This post is related to the gatsbyjs",
+        "date": "2018-09-26",
+        "image": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Don't build a website with last decade's tech. The future of the web is mobile,\n JavaScript and APIs—the\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum has been the industry's standard dummy text ever since the 1500s,\nwhen an unknown printer took a galley of type and scrambled it to make a type s\npecimen book. It has survived not only five centuries, but also the leap into\nelectronic typesetting, remaining essentially unchanged. It was popularised in\nthe 1960s with the release of Letraset sheets containing Lorem Ipsum passages,\nand more recently with desktop publishing software like Aldus PageMaker including\nversions of Lorem Ipsum.\n\n## Why do we use it?\n\nIt is a long established fact that a reader will be distracted by the readable\ncontent of a page when looking at its layout. The point of using Lorem Ipsum\nis that it has a more-or-less normal distribution of letters, as opposed to using\n'Content here, content here', making it look like readable English.\nMany desktop publishing packages and web page editors now use Lorem\nIpsum as their default model text and a search for 'lorem ipsum' will\nuncover many web sites still in their infancy. Various versions have evolved\nover the years, sometimes by accident, sometimes on purpose\n(injected humor and the like).\n",
+      "fileAbsolutePath": "/Users/sfair01/Sites/sfairchild/src/pages/firstpost/index.md",
+      "fields": {
+        "slug": "/firstpost/"
+      }
+    },
+    "SitePage /firstpost/": {
+      "jsonName": "firstpost-038",
+      "internalComponentName": "ComponentFirstpost",
+      "path": "/firstpost/",
+      "component": "/Users/sfair01/Sites/sfairchild/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "/firstpost/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/templates/blog-post.js",
+      "id": "SitePage /firstpost/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "63e872b67a989d04bfe896d8b37b9db6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/sfair01/Sites/sfairchild/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+      "pluginCreatorId": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4824f2c225de681fbd05cb70ea96e1b4",
+        "description": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/sfair01/Sites/sfairchild/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+      "pluginCreatorId": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "252f4193b6f3dbe35e54be342c32d2a5",
+        "description": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/sfair01/Sites/sfairchild/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+      "pluginCreatorId": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e7c61a22a55a1e447a47270a554fedb5",
+        "description": "84e0d556-84fb-5d62-82cb-84354a289bb0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/sfair01/Sites/sfairchild/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8daaeefcabfd69cf213e2568b21a9c1a",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "061cc604c92efe24fd9801a978499585"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "f36496ab-07ee-516d-81fa-65a68eed4fc7": [
+        "sq--src-components-image-js"
+      ],
+      "2acdbdf6-859b-5b3b-9588-9fe7eb49525a": [
+        "sq--src-components-image-js"
+      ],
+      "27d07090-0f81-5031-adcc-c612a99ff760": [
+        "/firstpost/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "firstpost-038": "899/path---firstpost-038-c55-F2tIyP4w4pEIx9YjdTmhVdSuZY",
+    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-seo-js": 2417117884,
+    "index": "989/path---index-6a9-5Qd2fG6YEAk2hWvMQ7qzTGpEGeQ",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "page-2-fbc": "726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "sq--src-components-image-js": 2011440971
+  },
+  "components": {
+    "/Users/sfair01/Sites/sfairchild/src/templates/blog-post.js": {
+      "query": "query PostQuery(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      description\n    }\n  }\n}\n",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/templates/blog-post.js"
+    },
+    "/Users/sfair01/Sites/sfairchild/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/.cache/dev-404-page.js"
+    },
+    "/Users/sfair01/Sites/sfairchild/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/pages/404.js"
+    },
+    "/Users/sfair01/Sites/sfairchild/src/pages/index.js": {
+      "query": "query ListQuery {\n  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        fields {\n          slug\n        }\n        excerpt(pruneLength: 250)\n        frontmatter {\n          date(formatString: \"MMMM Do YYYY\")\n          title\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/pages/index.js"
+    },
+    "/Users/sfair01/Sites/sfairchild/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/pages/page-2.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "usersSfair01SitesSfairchildSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersSfair01SitesSfairchildSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "usersSfair01SitesSfairchildSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/sfair01/Sites/sfairchild/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersSfair01SitesSfairchildSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    }
+  }
+}
