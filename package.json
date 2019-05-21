@@ -11,7 +11,6 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sharp": "^2.0.30",
-    "gatsby-source-filesystem": "^2.0.27",
     "gatsby-transformer-sharp": "^2.1.17",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
@@ -21,6 +20,8 @@
   "devDependencies": {
     "eslint": "^5.15.3",
     "eslint-plugin-react": "^7.12.4",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-remark": "^2.3.8",
     "gh-pages": "^2.0.1",
     "prettier": "^1.16.4"
   },
